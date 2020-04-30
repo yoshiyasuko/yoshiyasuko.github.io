@@ -3,7 +3,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/shinchan-hohoi.jpg') {
-        myImage.setAttribute('src', 'images/kazzwatabe.jpg');
+        myImage.setAttribute('src', 'images/sasuga-dio.jpg');
     } else {
         myImage.setAttribute('src', 'images/shinchan-hohoi.jpg');
     }
